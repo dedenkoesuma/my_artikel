@@ -1,0 +1,153 @@
+<!--untuk mereset semua nya-->
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;}
+	/* style */
+
+body{
+	background-color: #eaeaea;
+	font-family: arial, sans-serif;
+	background-image: url(beige-tiles.png);
+}
+
+.container {
+	width: 800px;
+	background-color: white;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.header .judul {
+	font-size: 35px;	
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+	text-decoration: none;
+}
+.header a {
+	text-decoration: none;
+	color: blue;
+}
+
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero{
+	height: 290px;
+	background-image: url(pg1.jpg);
+	background-size: cover;
+	background-position: 0 -730px;
+	border-top: 3px solid blue;
+	border-bottom: 3px solid lightskyblue;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content .judulartikel {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.content .ditulis{
+	margin-top: 10px;
+	font-size: 12px;
+	margin-right: 100px;
+}
+
+.content a{
+	text-decoration: none;
+	margin-left: 2px;
+		margin-right: 5px;
+		color: blue;
+}
+
+.content a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.content .p1, .p2 {
+	font-size: 16px;
+	margin-top: 20px;
+	text-indent: 30px;
+	margin-bottom: 10px;
+	word-spacing: 3px;
+}
+
+.content .isidampak {
+	font-size: 16px;
+	margin-top: 10px;
+	text-indent: 30px;
+	margin-bottom: 10px;
+	word-spacing: 3px;
+}
+
+.footer {
+	background-color: #333;
+	padding: 20px;
+	margin-top: -10px;
+}
+
+.footer .copyright {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
